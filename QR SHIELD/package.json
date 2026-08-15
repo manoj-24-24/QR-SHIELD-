@@ -1,0 +1,23 @@
+{
+  "name": "qr-shield-app",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "vite build",
+    "refresh-baseline": "npm i baseline-browser-mapping@latest -D"
+  },
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "baseline-browser-mapping": "^2.11.14",
+    "vite": "^7.1.12",
+    "vite-plugin-pwa": "^0.16.3"
+  }
+}
