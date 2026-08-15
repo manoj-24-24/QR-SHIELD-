@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.*
+.firebase/
+*.log
+localhost.pem
+localhost-key.pem
